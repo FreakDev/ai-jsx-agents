@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "jsxImportSource": "ai-jsx",
+    "moduleResolution": "node16",
+    "module": "node16",
+    "resolveJsonModule": true,
+    "declaration": true,
+  },
+}
